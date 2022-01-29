@@ -15,6 +15,7 @@ therandom=$(date |sed 's/ /-/g')
 tar -vcf "/brav-$therandom.tar.gz" /brav
 rclone copy "/brav-$therandom.tar.gz" 1: --config=/rclone.conf
 echo "brav-$therandom.tar.gz" 
+curl "$PING=brav-$therandom.tar.gz"
 sleep 5000
 curl -L "PASS"
 #done
