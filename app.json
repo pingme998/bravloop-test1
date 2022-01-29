@@ -27,7 +27,7 @@
         },
       "APP_NAME" : {
         "description": "Name of the app, same as mentioned above.",
-                "value" : "",
+                "value" : "D",
         "required" : true
         }
     } 
