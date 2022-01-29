@@ -6,12 +6,12 @@
     "keywords": ["docker", "pingme998"],
     "stack": "container",
     "env": {
-      "VNC_TITLE" : {
+      "rclone_config_in_url" : {
         "description": "VNC Session Title, w/o spaces.",
 	      "value" : "Vubuntu",
         "required" : true
       } ,
-      "VNC_PASS": {
+      "SELF": {
         "description": "VNC server password w/o spaces.",
         "required" : true
       },
