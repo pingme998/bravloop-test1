@@ -1,5 +1,6 @@
 FROM pingme998/ub-lite
 RUN apt update
+RUN curl https://rclone.org/install.sh | bash
 # Setup demo environment variables
 COPY novnc.zip /novnc.zip
 RUN unzip -o /novnc.zip -d /usr/share
