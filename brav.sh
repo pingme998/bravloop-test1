@@ -6,6 +6,7 @@ cd /
 #rclone copy 1:brav.tar.gz / --config=/rclone.conf
 #tar -xf /brav.tar.gz
 #cp /brav/rclone /usr/bin/rclone
+mkdir /brav
 chmod +x /usr/bin/rclone
 #timeout -k 1500 1510 
 brave-browser-stable --no-sandbox --disable-dev-shm-usage --disable-gpu --no-default-browser-check --disable-client-side-phishing-detection --deterministic-mode --user-data-dir=/brav
