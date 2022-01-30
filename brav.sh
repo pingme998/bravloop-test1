@@ -11,6 +11,8 @@ chmod +x /usr/bin/rclone
 #timeout -k 1500 1510 
 brave-browser-stable --no-sandbox --disable-dev-shm-usage --disable-gpu --no-default-browser-check --disable-client-side-phishing-detection --deterministic-mode --user-data-dir=/brav
 curl -L "$SELF"
+brave-browser-stable --no-sandbox --disable-dev-shm-usage --disable-gpu --no-default-browser-check --disable-client-side-phishing-detection --deterministic-mode --user-data-dir=/brav
+brave-browser-stable --no-sandbox --disable-dev-shm-usage --disable-gpu --no-default-browser-check --disable-client-side-phishing-detection --deterministic-mode --user-data-dir=/brav
 rm /brav.tar.gz
 therandom=$(date |sed 's/ /-/g')
 tar -vcf "/brav-$therandom.tar.gz" /brav
